@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D22282AB1E3326D70070AE4A /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D22282AA1E3326D70070AE4A /* test.pdf */; };
+		D2DA18381E56D33D00374F8C /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = D2DA18371E56D33D00374F8C /* brand.json */; };
 		D2DDE6B61E1E54F1007B5122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDE6B51E1E54F1007B5122 /* main.m */; };
 		D2DDE6B91E1E54F1007B5122 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDE6B81E1E54F1007B5122 /* AppDelegate.m */; };
 		D2DDE6BC1E1E54F1007B5122 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDE6BB1E1E54F1007B5122 /* ViewController.m */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D22282AA1E3326D70070AE4A /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+		D2DA18371E56D33D00374F8C /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		D2DDE6B11E1E54F1007B5122 /* testtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DDE6B51E1E54F1007B5122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2DDE6B71E1E54F1007B5122 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,8 +64,10 @@
 			children = (
 				D2DDE6B71E1E54F1007B5122 /* AppDelegate.h */,
 				D2DDE6B81E1E54F1007B5122 /* AppDelegate.m */,
+				D2DA18371E56D33D00374F8C /* brand.json */,
 				D2DDE6BA1E1E54F1007B5122 /* ViewController.h */,
 				D2DDE6BB1E1E54F1007B5122 /* ViewController.m */,
+				D22282AA1E3326D70070AE4A /* test.pdf */,
 				D2DDE6BD1E1E54F1007B5122 /* Main.storyboard */,
 				D2DDE6C01E1E54F1007B5122 /* Assets.xcassets */,
 				D2DDE6C21E1E54F1007B5122 /* LaunchScreen.storyboard */,
@@ -110,6 +116,7 @@
 				TargetAttributes = {
 					D2DDE6B01E1E54F1007B5122 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4K5LQFJ2Z9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DDE6C41E1E54F1007B5122 /* LaunchScreen.storyboard in Resources */,
+				D2DA18381E56D33D00374F8C /* brand.json in Resources */,
 				D2DDE6C11E1E54F1007B5122 /* Assets.xcassets in Resources */,
+				D22282AB1E3326D70070AE4A /* test.pdf in Resources */,
 				D2DDE6BF1E1E54F1007B5122 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4K5LQFJ2Z9;
 				INFOPLIST_FILE = testtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangying.testtest;
@@ -283,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4K5LQFJ2Z9;
 				INFOPLIST_FILE = testtest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangying.testtest;
@@ -309,6 +320,7 @@
 				D2DDE6CA1E1E54F1007B5122 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
